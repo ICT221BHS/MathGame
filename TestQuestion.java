@@ -27,8 +27,14 @@ public class TestQuestion{
 		operator = q.getOperator();		
 		if(operator.equals("+")){
 			result = firstNumber + secondNumber;
+		}else if(operator.equals("-")){
+			result = firstNumber - secondNumber;
+		}else if(operator.equals("*")){
+			result = firstNumber * secondNumber;				
+		}else if(operator.equals("-")){
+			result = firstNumber - secondNumber;
 		}
-					
+			
 		System.out.println(result);
 		
 	}
