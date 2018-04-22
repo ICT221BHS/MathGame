@@ -6,10 +6,7 @@
 package game;
 import java.util.Random;
 import java.util.Scanner;
-/**
- *
- * @author 3ishe
- */
+
 public class MathGame {
 
     /**
